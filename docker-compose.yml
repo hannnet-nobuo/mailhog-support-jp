@@ -1,0 +1,6 @@
+version: '3'
+services:
+    mailhog:
+        build: .
+        ports:
+        - "8025:8025"
